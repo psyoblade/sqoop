@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.sqoop.manager.SqlManager</OriginalElement>
+  <nodes>
+    <node x="1053.0" y="2584.0">org.apache.sqoop.manager.PostgresqlManager</node>
+    <node x="520.5" y="0.0">org.apache.sqoop.manager.ConnManager</node>
+    <node x="526.5" y="1424.0">org.apache.sqoop.manager.SqlManager</node>
+    <node x="467.0" y="2540.0">org.apache.sqoop.manager.SQLServerManager</node>
+    <node x="79.5" y="3062.0">org.apache.sqoop.manager.DirectMySQLManager</node>
+    <node x="0.0" y="2540.0">org.apache.sqoop.manager.MySQLManager</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.sqoop.manager.PostgresqlManager" target="org.apache.sqoop.manager.SqlManager" relationship="GENERALIZATION">
+      <point x="0.0" y="-192.0" />
+      <point x="1209.0" y="2515.0" />
+      <point x="750.0" y="2515.0" />
+      <point x="0.0" y="533.0" />
+    </edge>
+    <edge source="org.apache.sqoop.manager.SqlManager" target="org.apache.sqoop.manager.ConnManager" relationship="GENERALIZATION">
+      <point x="0.0" y="-533.0" />
+      <point x="0.0" y="687.0" />
+    </edge>
+    <edge source="org.apache.sqoop.manager.SQLServerManager" target="org.apache.sqoop.manager.SqlManager" relationship="GENERALIZATION">
+      <point x="0.0" y="-236.0" />
+      <point x="0.0" y="533.0" />
+    </edge>
+    <edge source="org.apache.sqoop.manager.DirectMySQLManager" target="org.apache.sqoop.manager.MySQLManager" relationship="GENERALIZATION">
+      <point x="0.0" y="-71.0" />
+      <point x="0.0" y="236.0" />
+    </edge>
+    <edge source="org.apache.sqoop.manager.MySQLManager" target="org.apache.sqoop.manager.SqlManager" relationship="GENERALIZATION">
+      <point x="0.0" y="-236.0" />
+      <point x="223.5" y="2515.0" />
+      <point x="750.0" y="2515.0" />
+      <point x="0.0" y="533.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="682.5000000000002" y="2742.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>protected</VISIBILITY>
+</Diagram>
+

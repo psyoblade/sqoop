@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.sqoop.tool.SqoopTool</OriginalElement>
+  <nodes>
+    <node x="282.49999999999994" y="0.0">org.apache.sqoop.tool.SqoopTool</node>
+    <node x="754.0" y="1486.0">org.apache.sqoop.tool.ImportTool</node>
+    <node x="296.99999999999994" y="479.0">org.apache.sqoop.tool.BaseSqoopTool</node>
+    <node x="376.99999999999994" y="1607.0">org.apache.sqoop.tool.CodeGenTool</node>
+    <node x="0.0" y="1563.0">org.apache.sqoop.tool.ExportTool</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.sqoop.tool.BaseSqoopTool" target="org.apache.sqoop.tool.SqoopTool" relationship="GENERALIZATION">
+      <point x="0.0" y="-478.5" />
+      <point x="0.0" y="214.5" />
+    </edge>
+    <edge source="org.apache.sqoop.tool.ExportTool" target="org.apache.sqoop.tool.BaseSqoopTool" relationship="GENERALIZATION">
+      <point x="0.0" y="-148.5" />
+      <point x="178.5" y="1461.0" />
+      <point x="555.5" y="1461.0" />
+      <point x="0.0" y="478.5" />
+    </edge>
+    <edge source="org.apache.sqoop.tool.CodeGenTool" target="org.apache.sqoop.tool.BaseSqoopTool" relationship="GENERALIZATION">
+      <point x="0.0" y="-104.5" />
+      <point x="0.0" y="478.5" />
+    </edge>
+    <edge source="org.apache.sqoop.tool.ImportTool" target="org.apache.sqoop.tool.BaseSqoopTool" relationship="GENERALIZATION">
+      <point x="0.0" y="-225.5" />
+      <point x="970.0" y="1461.0" />
+      <point x="555.5" y="1461.0" />
+      <point x="0.0" y="478.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="28.499999999999886" y="1504.0" />
+  <SelectedNodes>
+    <node>org.apache.sqoop.tool.SqoopTool</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>protected</VISIBILITY>
+</Diagram>
+

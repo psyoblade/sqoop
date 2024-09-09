@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.sqoop.mapreduce.DataDrivenImportJob</OriginalElement>
+  <nodes>
+    <node x="372.0" y="0.0">org.apache.sqoop.mapreduce.JobBase</node>
+    <node x="291.5" y="742.0">org.apache.sqoop.mapreduce.ImportJobBase</node>
+    <node x="0.0" y="1088.0">org.apache.sqoop.mapreduce.DataDrivenImportJob</node>
+    <node x="755.0" y="1132.0">org.apache.sqoop.mapreduce.MySQLDumpImportJob</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.sqoop.mapreduce.DataDrivenImportJob" target="org.apache.sqoop.mapreduce.ImportJobBase" relationship="GENERALIZATION">
+      <point x="0.0" y="-93.0" />
+      <point x="367.5" y="1063.0" />
+      <point x="665.5" y="1063.0" />
+      <point x="0.0" y="148.0" />
+    </edge>
+    <edge source="org.apache.sqoop.mapreduce.ImportJobBase" target="org.apache.sqoop.mapreduce.JobBase" relationship="GENERALIZATION">
+      <point x="0.0" y="-148.0" />
+      <point x="0.0" y="346.0" />
+    </edge>
+    <edge source="org.apache.sqoop.mapreduce.MySQLDumpImportJob" target="org.apache.sqoop.mapreduce.ImportJobBase" relationship="GENERALIZATION">
+      <point x="0.0" y="-49.0" />
+      <point x="963.5" y="1063.0" />
+      <point x="665.5" y="1063.0" />
+      <point x="0.0" y="148.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="586.0" y="1001.5" />
+  <SelectedNodes>
+    <node>org.apache.sqoop.mapreduce.DataDrivenImportJob</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>protected</VISIBILITY>
+</Diagram>
+

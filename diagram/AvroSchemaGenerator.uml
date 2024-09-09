@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.sqoop.orm.AvroSchemaGenerator</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">org.apache.sqoop.orm.AvroSchemaGenerator</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="215.0" y="71.0" />
+  <SelectedNodes>
+    <node>org.apache.sqoop.orm.AvroSchemaGenerator</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>protected</VISIBILITY>
+</Diagram>
+
